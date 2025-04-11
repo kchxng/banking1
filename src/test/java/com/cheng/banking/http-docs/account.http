@@ -1,0 +1,12 @@
+@baseURL=http://localhost:5000
+@token=dadsadfa
+
+### Index
+GET {{baseURL}}/
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+###
+GET {{baseURL}}/account
+Content-Type: application/json
+Authorization: Bearer {{token}}

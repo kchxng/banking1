@@ -1,0 +1,33 @@
+jwt:
+  secret: "[a-zA-Z0-9._]^+$Guidelines89797987forAlphabeticalArraNumeralsandOtherSymbo$"
+
+server:
+  port: 1112
+# error:
+#    whitelabel:
+#      enabled: false
+# amezone: url: jdbc:mysql://18.222.92.183:3306/support_api_db
+# url: jdbc:mysql://localhost:3306/backend_api_db
+# amezone: root/Cheng$A:21@!
+# localhost: root/chengsoft
+spring:
+  datasource:
+    url: jdbc:postgresql://john.db.elephantsql.com:5432/gcdkatwj
+    password: aTxs2EWlWjs7Jj5lMWJHNXoU5PwJnzrB
+    username: gcdkatwj
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+#                  org.hibernate.dialect.MySQL5Dialect
+servlet:
+  multipart:
+    max-file-size: 512KB
+    max-request-size: 512KB
+#  mvc:
+#    throw-exception-if-no-handler-found: true
+#  resources:
+#    add-mappings: false---
